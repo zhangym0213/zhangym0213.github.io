@@ -1,33 +1,33 @@
 # 论文 / Publications
-# 字段说明：
-#   title       标题（必填）
-#   authors     作者列表（中文或英文均可，"Zhang Yiming"/"张一鸣"会自动加粗）
-#   venue       会议/期刊（斜体显示）
-#   year        年份
-#   link        点击标题跳转的链接（可选）
-#   highlight   顶角标签，如 "Oral", "Spotlight", "Accepted"（可选）
-#   thumb       论文配图路径，如 /assets/img/pubs/paper1.png（可选，留空则显示年份方块）
-#   arxiv / paper / code / project / bibtex  对应链接（可选）
-#   abstract_zh / abstract_en  中英文一句话摘要（可选）
-#
-# 新论文加在数组最上面即可，页面会按年份倒序自动排序。
+# 作者中的 "Yiming Zhang" / "张一鸣" 会自动加粗。
+# 排序按 year 倒序，同年按文件中的先后顺序。
 
-- title: "Title of Your Multimodal Agent Paper"
-  authors: "Zhang Yiming, Author Two, Author Three"
-  venue: "Conference / Journal Name"
+- title: "Multimodal Latent Reasoning via Hierarchical Visual Cues Injection"
+  authors: "Yiming Zhang, Q. Yan, B. Jiang, K. Han"
+  venue: "arXiv preprint arXiv:2602.05359"
   year: 2026
   highlight: "Preprint"
-  link: "https://example.com"
-  arxiv: "https://arxiv.org/abs/XXXX.XXXXX"
-  code: "https://github.com/zhangym0213/your-repo"
-  abstract_zh: "这里写一句中文摘要。把这一条替换成你真实的论文，示例即可删除。"
-  abstract_en: "One-sentence English abstract goes here. Replace this entry with your real paper."
+  link: "https://arxiv.org/abs/2602.05359"
+  arxiv: "https://arxiv.org/abs/2602.05359"
+  abstract_en: "Proposes HIVE, a multimodal latent reasoning framework that injects hierarchical visual cues (from global scene context to fine-grained regions) into the model's latent representations, enabling grounded, slow-thinking multi-step inference without relying on textual chain-of-thought."
+  abstract_zh: "提出 HIVE——一种通过分层视觉线索注入实现的多模态潜空间推理框架；将全局场景到细粒度区域的视觉线索注入模型的潜表示，在无需文本思维链的情况下实现有据可依的「慢思考」式多步推理。"
 
-- title: "Another Example Paper on Vision-Language Understanding"
-  authors: "Author Two, Zhang Yiming, Author Four"
-  venue: "Workshop / Conference Name"
+- title: "STI-Bench: Are MLLMs Ready for Precise Spatial-Temporal World Understanding?"
+  authors: "Y. Li, Yiming Zhang, T. Lin, X. R. Liu, W. Cai, Z. Liu, B. Zhao"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV)"
   year: 2025
-  link: "https://example.com"
-  paper: "https://example.com/paper.pdf"
-  abstract_zh: "示例论文 2，用于演示多条论文列表的排列效果。"
-  abstract_en: "Example paper 2 to demonstrate the list layout."
+  link: "https://arxiv.org/abs/2503.23765"
+  arxiv: "https://arxiv.org/abs/2503.23765"
+  code: "https://github.com/MINT-SJTU/STI-Bench"
+  abstract_en: "Introduces STI-Bench, a benchmark evaluating MLLMs' precise spatial-temporal understanding via estimating and predicting object appearance, pose, displacement, and motion across desktop, indoor, and outdoor robot/vehicle scenarios; reveals that state-of-the-art MLLMs still struggle, especially in distance estimation and motion analysis."
+  abstract_zh: "提出 STI-Bench 基准，通过估计与预测物体的外观、位姿、位移和运动，在桌面、室内、室外的机器人与车辆场景下评估 MLLM 的精确时空理解能力；发现当前最强的多模态大模型在精确距离估计与运动分析等任务上仍存在明显短板。"
+
+- title: "Multi-Scale Finetuning for Encoder-based Time Series Foundation Models"
+  authors: "Zhongzheng Qiao, Chenghao Liu, Yiming Zhang, Ming Jin, Quang Pham, Qingsong Wen, Ponnuthurai Suganthan, Xudong Jiang, Savitha Ramasamy"
+  venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2025
+  link: "https://arxiv.org/abs/2506.14087"
+  arxiv: "https://arxiv.org/abs/2506.14087"
+  code: "https://github.com/zqiao11/MSFT"
+  abstract_en: "Proposes MSFT, a simple yet general framework that explicitly integrates multi-scale modeling into the finetuning of encoder-based time series foundation models; outperforms naive and parameter-efficient finetuning as well as state-of-the-art deep learning methods on Moirai, Moment, and Units."
+  abstract_zh: "提出 MSFT，一种面向编码器型时序基础模型的多尺度微调框架，将多尺度建模显式融入微调过程；在 Moirai、Moment 与 Units 三种骨干上均优于朴素微调、参数高效微调及当下最强的深度学习方法。"

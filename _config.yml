@@ -15,7 +15,7 @@ default_lang: zh
 
 # ===== 社交链接 / Social links =====
 github_username: zhangym0213
-google_scholar: ""        # 之后填你的 Scholar 链接
+google_scholar: "https://scholar.google.com/citations?user=tNrIGxYAAAAJ"
 twitter_username: ""      # 可选 / optional
 linkedin_username: ""     # 可选 / optional
 

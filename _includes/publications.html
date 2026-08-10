@@ -18,7 +18,7 @@
           {% if p.highlight %}<span class="tag" style="color:var(--accent);border-color:var(--accent);">{{ p.highlight }}</span>{% endif %}
         </h3>
         <p class="meta">
-          {{ p.authors | replace: "Zhang Yiming", "<strong>Zhang Yiming</strong>" | replace: "张一鸣", "<strong>张一鸣</strong>" }}
+          {{ p.authors | replace: "Yiming Zhang", "<strong>Yiming Zhang</strong>" | replace: "Zhang Yiming", "<strong>Zhang Yiming</strong>" | replace: "张一鸣", "<strong>张一鸣</strong>" }}
           <br />
           <span class="venue">{{ p.venue }}</span>{% if p.year %}, {{ p.year }}{% endif %}
         </p>
