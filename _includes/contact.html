@@ -1,0 +1,32 @@
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">
+      <span class="zh">联系</span><span class="en">Contact</span>
+    </h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <span class="k">Email</span>
+        <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+      </div>
+      {% if site.github_username %}
+      <div class="contact-item">
+        <span class="k">GitHub</span>
+        <span><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">@{{ site.github_username }}</a></span>
+      </div>
+      {% endif %}
+      {% if site.google_scholar %}
+      <div class="contact-item">
+        <span class="k">Scholar</span>
+        <span><a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a></span>
+      </div>
+      {% endif %}
+      <div class="contact-item">
+        <span class="k">
+          <span class="zh">地址</span><span class="en">Address</span>
+        </span>
+        <span class="zh">南洋理工大学，新加坡 639798</span>
+        <span class="en">Nanyang Technological University, Singapore 639798</span>
+      </div>
+    </div>
+  </div>
+</section>

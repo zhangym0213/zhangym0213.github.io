@@ -1,0 +1,41 @@
+<section class="hero">
+  <div class="container">
+    <img class="avatar" src="{{ '/assets/img/avatar.svg' | relative_url }}"
+         alt="Zhang Yiming / 张一鸣" onerror="this.style.display='none'" />
+    <div>
+      <h1>
+        <span class="zh">张一鸣</span><span class="en">Zhang Yiming</span>
+        <small class="zh" style="font-family:var(--sans);font-weight:400;color:var(--muted);font-size:.9rem;">&nbsp;Zhang Yiming</small>
+      </h1>
+      <p class="affil">
+        <span class="zh">南洋理工大学 · 电子电气工程学院 · 在读硕士</span>
+        <span class="en">MEng Student, School of Electrical &amp; Electronic Engineering, NTU</span>
+      </p>
+      <p class="lead">
+        <span class="zh">研究方向为多模态智能体（Multimodal Agents），关注视觉–语言–动作的协同理解与工具使用。</span>
+        <span class="en">My research interest lies in <strong>multimodal agents</strong>, with a focus on vision–language–action understanding and tool use.</span>
+      </p>
+      <div class="links">
+        <a class="chip" href="mailto:{{ site.email }}">
+          📧 {{ site.email }}
+        </a>
+        {% if site.github_username %}
+        <a class="chip" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
+          🐙 <span class="zh">GitHub</span><span class="en">GitHub</span>
+        </a>
+        {% endif %}
+        {% if site.google_scholar %}
+        <a class="chip" href="{{ site.google_scholar }}" target="_blank" rel="noopener">
+          🎓 <span class="zh">Google Scholar</span><span class="en">Scholar</span>
+        </a>
+        {% endif %}
+        {% if site.linkedin_username %}
+        <a class="chip" href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">
+          in&nbsp;LinkedIn
+        </a>
+        {% endif %}
+        <a class="chip" href="{{ '/cv.pdf' | relative_url }}">📄 <span class="zh">简历</span><span class="en">CV</span></a>
+      </div>
+    </div>
+  </div>
+</section>

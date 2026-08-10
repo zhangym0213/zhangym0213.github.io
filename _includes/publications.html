@@ -1,0 +1,42 @@
+<section id="publications">
+  <div class="container">
+    <h2 class="section-title">
+      <span class="zh">论文</span><span class="en">Publications</span>
+    </h2>
+
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% for p in pubs %}
+    <article class="pub">
+      {% if p.thumb %}
+      <img class="pub-thumb" src="{{ p.thumb | relative_url }}" alt="{{ p.title }}" />
+      {% else %}
+      <div class="pub-thumb" style="display:flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent);font-family:var(--serif);font-weight:600;font-size:1.6rem;">{{ p.year }}</div>
+      {% endif %}
+      <div>
+        <h3>
+          <a href="{{ p.link | default: '#' }}">{{ p.title }}</a>
+          {% if p.highlight %}<span class="tag" style="color:var(--accent);border-color:var(--accent);">{{ p.highlight }}</span>{% endif %}
+        </h3>
+        <p class="meta">
+          {{ p.authors | replace: "Zhang Yiming", "<strong>Zhang Yiming</strong>" | replace: "张一鸣", "<strong>张一鸣</strong>" }}
+          <br />
+          <span class="venue">{{ p.venue }}</span>{% if p.year %}, {{ p.year }}{% endif %}
+        </p>
+        <div class="links">
+          {% if p.paper %}<a href="{{ p.paper }}" target="_blank" rel="noopener">📄 Paper</a>{% endif %}
+          {% if p.arxiv %}<a href="{{ p.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+          {% if p.code %}<a href="{{ p.code }}" target="_blank" rel="noopener">💻 Code</a>{% endif %}
+          {% if p.project %}<a href="{{ p.project }}" target="_blank" rel="noopener">🌐 Project</a>{% endif %}
+          {% if p.bibtex %}<a href="{{ p.bibtex }}" target="_blank" rel="noopener">BibTeX</a>{% endif %}
+        </div>
+        {% if p.abstract_zh or p.abstract_en %}
+        <p class="meta" style="margin-top:.7rem;">
+          <span class="zh">{{ p.abstract_zh }}</span>
+          <span class="en">{{ p.abstract_en }}</span>
+        </p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

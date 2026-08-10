@@ -1,0 +1,18 @@
+# 动态 / News
+# 字段：date(日期字符串), tag(可选标签), zh(中文), en(英文)
+# 新的写在最上面
+
+- date: "2026-08"
+  tag: Update
+  zh: 个人主页上线。
+  en: Personal homepage launched.
+
+# - date: "2026-05"
+#   tag: Paper
+#   zh: 一篇关于多模态 Agent 的论文被 XX 会议接收。
+#   en: A paper on multimodal agents was accepted to XX.
+#
+# - date: "2026-03"
+#   tag: Talk
+#   zh: 在 XX 组做了关于工具使用的报告。
+#   en: Gave a talk on tool use at the XX group.

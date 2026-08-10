@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+node_modules/
+*.log
+.DS_Store
+
+# 本地预览产物 / local build artifacts
+Gemfile.lock

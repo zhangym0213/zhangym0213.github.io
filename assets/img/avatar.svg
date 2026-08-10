@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b1e2e"/>
+      <stop offset="1" stop-color="#b23b4c"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="360" fill="url(#g)"/>
+  <circle cx="180" cy="180" r="180" fill="url(#g)"/>
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia, 'Songti SC', serif" font-size="150" font-weight="600"
+        fill="#ffffff">ZY</text>
+</svg>

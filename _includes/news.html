@@ -1,0 +1,19 @@
+<section id="news">
+  <div class="container">
+    <h2 class="section-title">
+      <span class="zh">动态</span><span class="en">News</span>
+    </h2>
+    <ul class="news-list">
+      {% for item in site.data.news %}
+      <li>
+        <span class="news-date">{{ item.date }}</span>
+        <span>
+          {% if item.tag %}<span class="news-tag">{{ item.tag }}</span>{% endif %}
+          <span class="zh">{{ item.zh }}</span>
+          <span class="en">{{ item.en }}</span>
+        </span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+
+  <!-- Open Graph / 社交分享元数据 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:image" content="{{ '/assets/img/avatar.svg' | absolute_url }}" />
+</head>
+<body class="lang-{{ site.default_lang }} {{ page.body_class | default: 'home' }}"
+      data-default-lang="{{ site.default_lang }}">
+  <a class="skip-link" href="#main">
+    <span class="zh">跳到正文</span><span class="en">Skip to content</span>
+  </a>
+
+  {% include header.html %}
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="zh">
+        © {{ 'now' | date: '%Y' }} 张一鸣 · 由
+        <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>
+        与 <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> 驱动
+      </p>
+      <p class="en">
+        © {{ 'now' | date: '%Y' }} Zhang Yiming · Powered by
+        <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>
+        and <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/lang.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+# 论文 / Publications
+# 字段说明：
+#   title       标题（必填）
+#   authors     作者列表（中文或英文均可，"Zhang Yiming"/"张一鸣"会自动加粗）
+#   venue       会议/期刊（斜体显示）
+#   year        年份
+#   link        点击标题跳转的链接（可选）
+#   highlight   顶角标签，如 "Oral", "Spotlight", "Accepted"（可选）
+#   thumb       论文配图路径，如 /assets/img/pubs/paper1.png（可选，留空则显示年份方块）
+#   arxiv / paper / code / project / bibtex  对应链接（可选）
+#   abstract_zh / abstract_en  中英文一句话摘要（可选）
+#
+# 新论文加在数组最上面即可，页面会按年份倒序自动排序。
+
+- title: "Title of Your Multimodal Agent Paper"
+  authors: "Zhang Yiming, Author Two, Author Three"
+  venue: "Conference / Journal Name"
+  year: 2026
+  highlight: "Preprint"
+  link: "https://example.com"
+  arxiv: "https://arxiv.org/abs/XXXX.XXXXX"
+  code: "https://github.com/zhangym0213/your-repo"
+  abstract_zh: "这里写一句中文摘要。把这一条替换成你真实的论文，示例即可删除。"
+  abstract_en: "One-sentence English abstract goes here. Replace this entry with your real paper."
+
+- title: "Another Example Paper on Vision-Language Understanding"
+  authors: "Author Two, Zhang Yiming, Author Four"
+  venue: "Workshop / Conference Name"
+  year: 2025
+  link: "https://example.com"
+  paper: "https://example.com/paper.pdf"
+  abstract_zh: "示例论文 2，用于演示多条论文列表的排列效果。"
+  abstract_en: "Example paper 2 to demonstrate the list layout."

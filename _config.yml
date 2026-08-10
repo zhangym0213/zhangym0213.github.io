@@ -1,0 +1,40 @@
+# ===== 基础信息 / Basic info =====
+title: Zhang Yiming | 张一鸣
+email: yishu.luv@gmail.com
+description: >-
+  Personal homepage of Zhang Yiming (张一鸣), MEng student at NTU EEE,
+  working on multimodal agents.
+author: Zhang Yiming
+
+# 站点 URL（GitHub Pages 默认 / GitHub Pages default URL）
+url: "https://zhangym0213.github.io"
+baseurl: ""
+
+# ===== 语言切换默认值 / Default language: zh | en =====
+default_lang: zh
+
+# ===== 社交链接 / Social links =====
+github_username: zhangym0213
+google_scholar: ""        # 之后填你的 Scholar 链接
+twitter_username: ""      # 可选 / optional
+linkedin_username: ""     # 可选 / optional
+
+# ===== Jekyll 构建设置 / Build settings =====
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+timezone: Asia/Singapore
+
+# 注意：本站不依赖任何插件，最大化 GitHub Pages 原生构建的稳定性 /
+# This site uses NO plugins on purpose, to maximize GitHub Pages build stability.
+plugins: []
+
+# 排除不需要构建的文件 / Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
