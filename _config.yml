@@ -17,7 +17,6 @@ default_lang: zh
 github_username: zhangym0213
 google_scholar: "https://scholar.google.com/citations?user=tNrIGxYAAAAJ"
 twitter_username: ""      # 可选 / optional
-linkedin_username: ""     # 可选 / optional
 
 # ===== Jekyll 构建设置 / Build settings =====
 markdown: kramdown
