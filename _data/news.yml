@@ -2,11 +2,42 @@
 # 字段：date(日期字符串), tag(可选标签), zh(中文), en(英文)
 # 新的写在最上面
 
+- date: "2026-12"
+  tag: Internship
+  zh: 在 Apex 超衍智能实习。
+  en: Internship at Apex (超衍智能).
+
+- date: "2026-10"
+  tag: Paper
+  zh: HumanPhys 预印本发布（arXiv:2610.14679），一个面向真实世界物理感知的人中心基准。
+  en: HumanPhys preprint released (arXiv:2610.14679), a human-centric benchmark for real-world physical perception.
+
 - date: "2026-08"
   tag: Update
   zh: 个人主页上线。
   en: Personal homepage launched.
 
+- date: "2026-05"
+  tag: Internship
+  zh: 在蚂蚁集团（杭州）实习。
+  en: Internship at Ant Group (Hangzhou).
+
+- date: "2025-06"
+  tag: Internship
+  zh: 在新加坡华为诺亚方舟实验室实习。
+  en: Internship at Huawei Noah's Ark Lab, Singapore.
+
+- date: "2024-12"
+  tag: Internship
+  zh: 在上海交通大学人工智能学院实习（导师：赵波）。
+  en: "Internship at the School of Artificial Intelligence, Shanghai Jiao Tong University (advisor: Bo Zhao)."
+
+- date: "2024-05"
+  tag: Internship
+  zh: 在北京通用人工智能研究院（BIGAI）实习。
+  en: Internship at Beijing Institute for General Artificial Intelligence (BIGAI).
+
+# 示例 / examples:
 # - date: "2026-05"
 #   tag: Paper
 #   zh: 一篇关于多模态 Agent 的论文被 XX 会议接收。
