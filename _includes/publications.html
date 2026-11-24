@@ -4,7 +4,7 @@
       <span class="zh">论文</span><span class="en">Publications</span>
     </h2>
 
-    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% assign pubs = site.data.publications | sort: "date" | reverse %}
     {% for p in pubs %}
     <article class="pub">
       {% if p.thumb %}
