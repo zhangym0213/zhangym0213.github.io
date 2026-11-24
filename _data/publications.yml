@@ -2,6 +2,17 @@
 # 作者中的 "Yiming Zhang" / "张一鸣" 会自动加粗。
 # 排序按 year 倒序，同年按文件中的先后顺序。
 
+- title: "HumanPhys: A Human-Centric Physical-World Perception Benchmark for Real-World Visual Reasoning"
+  authors: "Yiming Zhang, Enzhi Zhou, Junan Lin, Dulan Zhou, Weiqiang Wang, Yuge Huang, Jian Liu"
+  thumb: "/assets/img/pubs/humanphys.png"
+  venue: "arXiv preprint arXiv:2610.14679"
+  year: 2026
+  highlight: "Preprint"
+  link: "https://arxiv.org/abs/2610.14679"
+  arxiv: "https://arxiv.org/abs/2610.14679"
+  abstract_en: "Introduces HumanPhys, a human-centric benchmark for real-world physical perception plus a companion training corpus produced by the same pipeline; all labels are derived programmatically from sensor calibration, source metadata, or renderer state rather than annotators or estimators. HumanPhys probes six dimensions—spatial state, kinematics, blink events, deformation, illumination, and camera pose—and benchmarks open- and closed-source MLLMs, finding all six dimensions remain challenging for current models."
+  abstract_zh: "提出 HumanPhys——面向真实世界物理感知的人中心基准，并由同一管线产出配套训练语料；所有标签均由传感器标定、源元数据或渲染器状态程序化生成，而非人工标注或在基准帧上跑估计器。HumanPhys 系统考察空间状态、运动学、眨眼事件、形变、光照与相机位姿六个维度，并对开源与闭源 MLLM 进行评测，发现这六项能力对当前模型而言仍具挑战。"
+
 - title: "Multimodal Latent Reasoning via Hierarchical Visual Cues Injection"
   authors: "Yiming Zhang, Q. Yan, B. Jiang, K. Han"
   thumb: "/assets/img/pubs/hive.png"
